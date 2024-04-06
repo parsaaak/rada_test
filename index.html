@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>رادا</title>
+    <!-- css stylesheets -->
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- responsive style -->
+    <link href="responsive.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header -->
+
+    <div class="container header pt-0">
+      <!-- nav -->
+      <nav class="navbar navbar-expand-lg pt-0 ">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="radar logo.svg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-decoration-line-through" aria-current="page" href="#">راه حل ها </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us-index.html">درباره ما</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-decoration-line-through"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                >
+                  همکاران
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="customer-index.html"
+                  role="button"
+                  aria-expanded="false"
+                >
+                  مشتری های ما
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="pricing-index.html"
+                  role="button"
+                  aria-expanded="false"
+                >
+                  ورژن ها
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search" href="contact us-index.html">
+              <a href="contact us-index.html" class="btn pt-2 " type="submit">ارتباط با ما</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- end of nav -->
+      <!-- header item  -->
+      <div class="container header-items d-flex justify-content-between">
+        <div>
+          <h1>رادا، بهترین راه حل</h1>
+          <p>
+            سیستم رادا با استفاده از ابزارهای سخت افزاری اطلاعات ورودی و خروجی
+            محصولات، در زمان و مکان مشخص ثبت میکند
+          </p>
+          <a href="">
+            بیشتر بدانید
+            <span> <img class="me-1" src="Arrow 1.svg" alt="" /> </span>
+          </a>
+        </div>
+        <div class="position-relative ">
+        <video id="myVideo" src="snoop dog.mp4" controls></video>
+        <img class="video-button"  onclick="toggleVideo()" src="video player button.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- end of header -->
+    <!-- solutions-section -->
+    <div class="container-fluid">
+      <div class="container solutions-section">
+        <h6>راه حل ها</h6>
+        <div class="d-flex justify-content-between">
+          <h2>رادا چه مشکلاتی را حل می کند ؟</h2>
+          <!-- slider buttons -->
+          <div class="d-flex">
+            <a
+              class="bg-transparent w-aut"
+              href="#recipeCarousel"
+              role="button"
+              data-bs-slide="prev"
+            >
+              <span class="right-arow-slider" aria-hidden="true"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="105"
+                  height="49"
+                  viewBox="0 0 105 49"
+                  fill="none"
+                >
+                  <circle
+                    cx="80.5"
+                    cy="24.5"
+                    r="24.25"
+                    fill="#313252"
+                    stroke="white"
+                    stroke-width="0.5"
+                  />
+                  <path
+                    d="M90.7071 24.7071C91.0976 24.3166 91.0976 23.6834 90.7071 23.2929L84.3431 16.9289C83.9526 16.5384 83.3195 16.5384 82.9289 16.9289C82.5384 17.3195 82.5384 17.9526 82.9289 18.3431L88.5858 24L82.9289 29.6569C82.5384 30.0474 82.5384 30.6805 82.9289 31.0711C83.3195 31.4616 83.9526 31.4616 84.3431 31.0711L90.7071 24.7071ZM71 25L90 25V23L71 23V25Z"
+                    fill="#FD7F9F"
+                  />
+                </svg>
+              </span>
+            </a>
+            <a
+              class="bg-transparent w-aut"
+              href="#recipeCarousel"
+              role="button"
+              data-bs-slide="next"
+            >
+              <span class="" aria-hidden="true"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="105"
+                  height="49"
+                  viewBox="0 0 105 49"
+                  fill="none"
+                >
+                  <circle
+                    cx="24.5"
+                    cy="24.5"
+                    r="24.25"
+                    fill="#313252"
+                    stroke="white"
+                    stroke-width="0.5"
+                  />
+                  <path
+                    d="M14.2929 23.2929C13.9024 23.6834 13.9024 24.3166 14.2929 24.7071L20.6569 31.0711C21.0474 31.4616 21.6805 31.4616 22.0711 31.0711C22.4616 30.6805 22.4616 30.0474 22.0711 29.6569L16.4142 24L22.0711 18.3431C22.4616 17.9526 22.4616 17.3195 22.0711 16.9289C21.6805 16.5384 21.0474 16.5384 20.6569 16.9289L14.2929 23.2929ZM34 23L15 23L15 25L34 25L34 23Z"
+                    fill="#FD7F9F"
+                  />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- slider carousel  -->
+      <div class="container-fluid text-center my-3 p-0" style="direction: ltr">
+        <div class="row mx-auto my-auto justify-content-center p-0">
+          <div
+            id="recipeCarousel"
+            class="carousel slide p-0"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner p-0" role="listbox">
+              <div class="carousel-item active">
+                <div class="col-md-3">
+                  <div class="card">
+                    <h3>01</h3>
+                    <p>عدم شفافیت و اعتماد در زنجیره تامین</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card">
+                    <h3>02</h3>
+                    <p>عدم تطابق عرضه و تقاضا</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card">
+                    <h3>03</h3>
+                    <p>کاهش ریسک ظرفیت و حذف بودجه احتیاطی</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card">
+                    <h3>04</h3>
+                    <p>واسطه گری و تحمیل هزینه به زنجیره تامین</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div class="col-md-3">
+                  <div class="card">
+                    <h3>05</h3>
+                    <p>کاهش ضایعات و افزایش نرخ سفارشات کامل</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of solutions-section -->
+    <!-- Advantages section  -->
+    <div class="container Advantages d-flex justify-content-between flex-wrap">
+      <div class="Advantages-list">
+        <h2>مزایای استفاده از سیستم رادا</h2>
+        <img class="mt-2 mb-2" src="Advantages section small line.svg" alt="" />
+        <ul>
+          <li class="mt-0">
+            01 - ایجاد بانک اطلاعاتی جامع و یکپارچه در زنجیره تامین
+          </li>
+          <li>02 - عیب یابی صحیح و دقیق زنجیره تامین</li>
+          <li>03 - افزایش سرعت و بهره وری در ارتباطات و اطلاعات بین سازمانی</li>
+          <li>04 - تنظیم عرضه و تقاضا</li>
+          <li>05 - توزیع محصول متناسب با نقاط فروش</li>
+          <li>05 - توزیع محصول متناسب با نقاط فروش</li>
+          <li>07 - تحلیل شاخص های کلیدی هر سازمان در زنجیره تامین</li>
+          <li>08 - اعتماد سازی میان سازمان ها با استفاده از بلاکچین</li>
+        </ul>
+      </div>
+
+      <div class="Advantages-section-pic">
+        <img class="img-fluid" src="Advantages section pic.svg" alt="" />
+      </div>
+
+      <div class="lower-Advantages container img-fluid">
+        <img
+          class="big-line-Advantages"
+          src="Advantages section big line.svg"
+          alt=""
+        />
+        <a href="#modal">
+          <button
+            class="btn mt-3 ms-1"
+            type="submit"
+            data-bs-toggle="modal"
+            data-bs-target="#demo-requests-button"
+          >
+            درخواست دمو
+          </button>
+        </a>
+      </div>
+    </div>
+    <!-- end of Advantages section -->
+    <!-- testimonials section -->
+    <div class="container-fluid testimonials">
+      <h2>چه چیزی رادا را منحصر به فرد کرده است ؟</h2>
+      <div
+        class="container-fluid testimonials-items mt-5 d-flex justify-content-center flex-wrap gap-5"
+      >
+        <div class="d-flex justify-content-between">
+          <h3>رویکرد میان سازمانی</h3>
+          <img class="img-fluid" src="testimonials img 1.svg" alt="" />
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3 class="w-50">ردیابی و رهگیری یکتای هر محصول</h3>
+          <img class="img-fluid" src="testimonials img 2.svg" alt="" />
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3 class="w-50">اولین و بزرگترین پلتفرم با این رویکرد در ایران</h3>
+          <img class="img-fluid img-3" src="testimonials img 3.svg" alt="" />
+        </div>
+        <div class="d-flex justify-content-between">
+          <h3 class="w-50">ایمن بودن اطلاعات با استفاده از بلاکچین</h3>
+          <img class="img-fluid" src="testimonials img 4.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end of testimonials section -->
+    <!-- special customers section -->
+    <div class="special-customers d-flex justify-content-center gap-5">
+      <svg
+        class="my-auto linee"
+        xmlns="http://www.w3.org/2000/svg"
+        width="409"
+        height="2"
+        viewBox="0 0 409 2"
+        fill="none"
+      >
+        <path d="M409 1L9.77516e-06 1" stroke="#C4C4C4" />
+      </svg>
+      <h2>همراهان ما در این راه</h2>
+      <svg
+        class="my-auto linee"
+        xmlns="http://www.w3.org/2000/svg"
+        width="409"
+        height="2"
+        viewBox="0 0 409 2"
+        fill="none"
+      >
+        <path d="M409 1L9.77516e-06 1" stroke="#C4C4C4" />
+      </svg>
+    </div>
+    <!-- img for desctop -->
+    <img
+      class="special-customers-img w-100 mt-5"
+      src="special customers section pic.svg"
+      alt=""
+    />
+    <!-- div for mobile    -->
+    <div
+      class="special-customers-img-div justify-content-center flex-wrap gap-5"
+    >
+      <img class="special-customers-logo-pelle" src="logo PELLE.svg" alt="" />
+      <img class="special-customers-logo" src="logo reh shahr.svg" alt="" />
+      <img class="special-customers-logo" src="logo kish.svg" alt="" />
+      <img class="special-customers-logo" src="logo IREDCO.svg" alt="" />
+      <img class="special-customers-logo" src="logo sanat naft.svg   " alt="" />
+      <img
+        class="special-customers-logo"
+        src="logo khane blockchain.svg"
+        alt=""
+      />
+      <img
+        class="special-customers-logo"
+        src="logo riasat jomhoryyy.svg"
+        alt=""
+      />
+    </div>
+    <!-- //////////////// -->
+    <div
+      class="lower-part-special-customers mt-5 d-flex justify-content-center gap-5"
+    >
+      <svg
+        class="my-auto linee"
+        xmlns="http://www.w3.org/2000/svg"
+        width="457"
+        height="2"
+        viewBox="0 0 457 2"
+        fill="none"
+      >
+        <path d="M457 1L1.0252e-05 1" stroke="#C4C4C4" />
+      </svg>
+      <a href="#modal"
+        ><button
+          class="btn mt-4"
+          type="submit"
+          data-bs-toggle="modal"
+          data-bs-target="#work-with-us-button"
+        >
+          همکاری با ما
+        </button></a
+      >
+      <svg
+        class="my-auto linee"
+        xmlns="http://www.w3.org/2000/svg"
+        width="457"
+        height="2"
+        viewBox="0 0 457 2"
+        fill="none"
+      >
+        <path d="M457 1L1.0252e-05 1" stroke="#C4C4C4" />
+      </svg>
+    </div>
+
+    <!-- end of special customers section   -->
+    <!-- question section -->
+    <div
+      class="container question-section d-flex justify-content-between flex-wrap"
+    >
+      <div class="d-flex flex-column">
+        <h2>چه سوالی دارید ؟</h2>
+        <p>
+          پشتیبانی از مشتری بالاترین اولویت ماست. ما اینجا هستیم تا 24 ساعته
+          جوابگو شما باشیم
+        </p>
+      </div>
+
+      <div class="question-section-left-items d-flex gap-3 flex-wrap">
+        <div
+          class="d-flex flex-column align-items-center justify-content-center"
+        >
+          <img src="question-section img 3.svg" alt="" />
+          <a href="#modal">
+            <button
+              class="btn1 mt-3 ms-1"
+              type="submit"
+              data-bs-toggle="modal"
+              data-bs-target="#demo-requests-button"
+            >
+              درخواست دمو
+            </button>
+          </a>
+        </div>
+        <div
+          class="d-flex flex-column align-items-center justify-content-center"
+        >
+          <img src="question-section img 2.svg" alt="" />
+          <a href=""
+            ><button class="btn2 mt-4" type="submit">ارتباط با ما</button></a
+          >
+        </div>
+        <div
+          class="d-flex flex-column align-items-center justify-content-center"
+        >
+          <img src="question-section img 1.svg" alt="" />
+          <a href="#modal"
+            ><button
+              class="btn3 mt-4"
+              type="submit"
+              data-bs-toggle="modal"
+              data-bs-target="#work-with-us-button"
+            >
+              همکاری با ما
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- end of question section -->
+    <!-- footer -->
+    <div class="container-fluid footer">
+      <div class="container oy d-flex justify-content-around flex-wrap p-0">
+        <div class="footer-rada">
+          <h4>رادا</h4>
+          <ul class="mt-2">
+            <a href=""><li>درباره ی ما</li></a>
+            <a href=""><li>همکاران ما</li></a>
+            <a href=""><li>راه حل ها</li></a>
+            <a href=""><li>مشتری های ما</li></a>
+            <a href=""><li>ورژن ها</li></a>
+          </ul>
+        </div>
+
+        <div class="footer-our-features">
+          <h4>امکانات ما</h4>
+          <ul class="mt-2">
+            <a href=""><li>درباره ی ما</li></a>
+            <a href=""><li>همکاران ما</li></a>
+            <a href=""><li>راه حل ها</li></a>
+            <a href=""><li>مشتری های ما</li></a>
+            <a href=""><li>ورژن ها</li></a>
+          </ul>
+        </div>
+
+        <div class="footer-contact-us">
+          <h4>ارتباط با ما</h4>
+          <ul class="mt-2">
+            <a href=""><li>021-44507790</li></a>
+            <a href=""><li>021-44507790</li></a>
+            <a href=""><li>info@radasystem.com</li></a>
+          </ul>
+        </div>
+
+        <div class="footer-logos text-center">
+          <img src="rada footer icon.svg" alt="" />
+          <h5>ردیابی اطلاعات دارای امنیت</h5>
+          <p class="mt-2">تولید شده توسط تیم خانه نوپردازان فن آفرین پله</p>
+
+          <div class="social-media-logo mt-4">
+            <a href=""><img src="linkedin footer icon.svg" alt="" /></a>
+            <a href=""><img src="youtube footer icon.svg" alt="" /></a>
+            <a href=""><img src="twitter footer icon.svg" alt="" /></a>
+            <a href=""><img src="what s app footer icon.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end of footer -->
+    <!-- ////////////////////////// -->
+
+    <!-- Modal demo requiest button -->
+    <div
+      class="modal modal-demo-requests-button fade"
+      id="demo-requests-button"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content demo-requests-modal">
+          <div class="modal-header border-0 demo-requests-button-close">
+            <button
+              type="button"
+              class="btn-close demo-requests-button-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body pe-5">
+            <h2>درخواست دمو</h2>
+            <p>
+              برای ارتباط با واحد های پشتیبانی و پاسخگویی به سوالات شما در رابطه
+              با درخواست دمو فرم زیر را پر کنید تا با شما تماس گرفته شود
+            </p>
+            <input type="text" placeholder="نام و نام خانوادگی" />
+            <input type="text" placeholder="شماره تماس" />
+            <input type="text" placeholder="ایمیل" />
+            <input type="text" placeholder="نام شرکت" />
+            <div class="text-center ps-5 mt-4">
+              <a href=""><button class="btn" type="submit">ارسال</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of Modal demo requiest button -->
+    <!-- modal-work-with-us-button -->
+    <div
+      class="modal modal-work-with-us-button fade"
+      id="work-with-us-button"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content work-with-us-modal">
+          <div class="modal-header border-0 demo-requests-button-close">
+            <button
+              type="button"
+              class="btn-close demo-requests-button-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body pe-5">
+            <h2>همکاری با ما</h2>
+            <p>
+              برای ارتباط با واحد های پشتیبانی و پاسخگویی به سوالات شما در رابطه
+              با همکاری با ما دمو فرم زیر را پر کنید تا با شما تماس گرفته شود
+            </p>
+            <input type="text" placeholder="نام و نام خانوادگی" />
+            <input type="text" placeholder="شماره تماس" />
+            <input type="text" placeholder="ایمیل شرکت" />
+            <input type="text" placeholder="نام شرکت" />
+            <input type="text" placeholder="موقعیت شغلی" />
+            <div class="text-center ps-5 mt-4">
+              <a href=""><button class="btn" type="submit">ارسال</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of modal-work-with-us-button -->
+
+
+
+    
+    <!-- //////////////////////////// -->
+    <!-- bootstrap js -->
+    <script src="bootstrap.bundle.js"></script>
+    <!-- ........... -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,513 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Dana;
+  src: url(DanaVF.ttf);
+  src: url(DanaVF.woff);
+  src: url(DanaVF.woff2);
+}
+
+body {
+  background: rgba(49, 50, 82, 1);
+  font-family: Dana;
+}
+
+header {
+  background: url(about\ us\ heading\ shape.svg) center/cover no-repeat;
+  padding-bottom: 240px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  color: #fff;
+}
+
+h2 {
+  white-space: nowrap;
+}
+
+/* ================ nav ==================== */
+
+.navbar-collapse {
+  margin-bottom: 25px;
+}
+.navbar-toggler {
+  background-color: #fff;
+}
+.btn {
+  width: 150px;
+  height: 45px;
+  background: linear-gradient(263deg, #018def 2.98%, #3840f7 161.51%);
+  box-shadow: 4px 0px 30px 0px rgba(0, 80, 136, 0.96);
+  margin-left: 100px;
+    color: #fff;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      border: none;
+}
+
+.navbar a,
+.navbar button {
+  color: #fff;
+}
+.navbar ul {
+  gap: 15px;
+  margin-left: 20%;
+}
+.navbar-toggler {
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  margin-right: 0px;
+}
+
+/* ================ end nav ==================== */
+
+.header-section div p {
+  text-align: justify;
+  font-weight: 400;
+  max-width: fit-content;
+  line-height: 40px;
+}
+
+.header-section div img {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  width: 410px;
+}
+
+.header-section div a button {
+  background: none;
+  border: none;
+  margin-top: 15px;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* ==============================================================
+============================= target ============================
+================================================================= */
+
+.target div {
+  margin-top: 100px;
+}
+
+.target div h6 {
+  margin-top: 10px;
+  color: #7a6df4;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.target div h4 {
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.target ul li {
+  color: #fff;
+  margin-top: 25px;
+}
+
+.target div .back {
+  
+  width: 400px;
+  border-radius: 80px;
+  background: url(about\ us\ -Traget\ -\ img\ -\ hr.svg), 50% / cover no-repeat;
+  margin: 0 auto;
+}
+
+.target div svg {
+  position: relative;
+  margin-right: -55px;
+  margin-top: 45px;
+  width: 500px;
+}
+
+.target div .back h5 {
+  position: absolute;
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: -250px;
+  line-height: 100px;
+}
+
+.target div .back h5 span {
+  color: #aa80f9;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+/* ==============================================================
+============================= end target ============================
+================================================================= */
+
+/* ==============================================================
+============================= mission ============================
+================================================================= */
+
+.mission div {
+  margin-top: 100px;
+}
+
+.mission .ltr {
+  direction: ltr;
+}
+
+.mission div h6 {
+  margin-top: 10px;
+  color: #fd7f9f;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.mission div h4 {
+  margin-top: 15px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.mission ul li {
+  color: #fff;
+  margin-top: 25px;
+}
+
+.mission div .backk {
+  background: url(about\ us\ -\ mission-shap.svg) center/cover no-repeat;
+  border-radius: 100px;
+  width: 469px;
+  height: 282px;
+}
+
+.mission div img {
+  width: 100%;
+  height: 400px;
+  margin-top: -70px;
+}
+
+/* ==============================================================
+============================= end mission ============================
+================================================================= */
+
+/* ==============================================================
+============================= experts ============================
+================================================================= */
+
+.experts .row {
+  margin-top: 150px;
+  margin-bottom: 150px;
+ justify-content: center;
+}
+
+.experts div .back {
+  background: url(about\ us\ -experts-shap.svg) center/cover;
+  width: 1440px;
+  height: 490px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.experts .margin {
+  direction: ltr;
+  margin-top: 50px;
+}
+
+.experts .background {
+  color: #fff;
+  background: #313252;
+  display: flex;
+  gap: 90px;
+  padding: 20px;
+}
+
+.experts .background h5 {
+  color: #fbaa49;
+}
+
+.experts div h2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: -400px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* ==============================================================
+============================= end experts ============================
+================================================================= */
+
+/* ==============================================================
+============================= companions ============================
+================================================================= */
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.back-companions {
+  background: url(about\ us-companions-shap.svg);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-right: 20px;
+  flex-wrap: wrap;
+}
+
+.companions div button {
+  border-radius: 7px;
+  background: linear-gradient(97deg, #fb6fbb -48.59%, #ff9085 129.36%);
+  box-shadow: 4px 0px 30px 0px #1f1f35;
+  border: none;
+  padding: 10px 20px 10px 20px;
+}
+
+.companions div .flex h2 {
+  white-space: nowrap;
+}
+
+.companions div button h2 {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 20px 10px 20px;
+}
+/* ==============================================================
+============================= end companions ============================
+================================================================= */
+
+/* ==============================================================
+============================= footer ============================
+================================================================= */
+
+
+
+.footer {
+  background: #292944;
+  margin-top: 67px;
+}
+.footer div {
+  margin-top: 17px;
+}
+.footer h4 {
+  color: #707bfa;
+  text-align: right;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer li {
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-block: 15px;
+  list-style: none;
+  color: #fff;
+}
+.footer h5 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer p {
+  color: #5c63c5;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-logos a {
+  margin-inline: 5px;
+}
+
+/* ==============================================================
+============================= end footer ============================
+================================================================= */
+
+/* Modal demo requiest button */
+.demo-requests-modal {
+  background-image: url(Modal\ demo\ requiest\ button\ background.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #313252;
+}
+.demo-requests-button-close {
+  margin-right: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.demo-requests-modal h2 {
+  color: #fff;
+  text-align: right;
+  font-family: Dana;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -40px;
+}
+.demo-requests-modal p {
+  color: #fff;
+  text-align: right;
+  font-family: Dana;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 2;
+  margin-top: 15px;
+}
+.demo-requests-modal input {
+  width: 400px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #272741;
+  box-shadow: 4px 0px 10px 0px #1f1f35;
+  color: #fff;
+  margin-block: 15px;
+  padding-inline: 10px;
+  border: none;
+}
+textarea:focus,
+input:focus {
+  /* outline: none; */
+  outline-color: #fff;
+}
+::placeholder {
+  color: #fff;
+}
+::-ms-input-placeholder {
+  color: #fff;
+}
+.demo-requests-modal .btn {
+  width: 150px;
+  height: 45px;
+  border-radius: 7px;
+  background: linear-gradient(98deg, #aa80f9 10.67%, #4b5af0 163.93%);
+  box-shadow: 4px 0px 10px 0px rgba(31, 31, 53, 0.6);
+  color: #fff;
+  text-align: center;
+  font-family: Dana;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* end of Modal demo requiest button */
+/* modal-work-with-us-button */
+.work-with-us-modal {
+  background-image: url(modal-work-with-us-button\ \ background.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #313252;
+}
+.demo-requests-button-close {
+  margin-right: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.work-with-us-modal h2 {
+  color: #fff;
+  text-align: right;
+  font-family: Dana;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -40px;
+}
+
+.work-with-us-modal p {
+  color: #fff;
+  text-align: right;
+  font-family: Dana;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  line-height: 2;
+  margin-top: 15px;
+}
+
+.work-with-us-modal input {
+  width: 400px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #272741;
+  box-shadow: 4px 0px 10px 0px #1f1f35;
+  color: #fff;
+  margin-block: 15px;
+  padding-inline: 10px;
+  border: none;
+}
+
+textarea:focus,
+input:focus {
+  /* outline: none; */
+  outline-color: #fff;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+::-ms-input-placeholder {
+  color: #fff;
+}
+
+.work-with-us-modal .btn {
+  width: 150px;
+  height: 45px;
+  border-radius: 7px;
+  background: linear-gradient(97deg, #fb6fbb -48.59%, #ff9085 129.36%);
+  box-shadow: 4px 0px 30px 0px #1f1f35;
+  color: #fff;
+  text-align: center;
+  font-family: Dana;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+/* end of modal-work-with-us-button */

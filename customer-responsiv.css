@@ -1,0 +1,202 @@
+@media screen and (max-width: 1300px) {
+  .amir-reza {
+    position: absolute;
+    top: 800px;
+    right: 350px;
+  }
+  .amir-reza svg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar ul {
+    gap: 3px;
+    margin-left: 15%;
+  }
+
+  .header-section div img {
+    display: flex;
+    margin: auto;
+    height: auto;
+    margin-top: 25px;
+  }
+
+  .amir-reza {
+    position: absolute;
+    top: 800px;
+    right: 260px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    padding-top: unset;
+  }
+
+  .companions div button {
+    padding: 10px 100px;
+    margin-top: 200px;
+  }
+
+  .companions div svg {
+    display: none;
+  }
+
+  .amir-reza {
+    position: absolute;
+    top: 970px;
+    right: 160px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .amir-reza {
+    position: absolute;
+    top: 900px;
+    right: 60px;
+  }
+
+  /* <!-- =========     =========
+      ========= end header-section =========
+      =========     ========= --> */
+
+  .header-section div p {
+    width: 95vw;
+  }
+
+  .header-section div img {
+    width: 300px;
+  }
+
+  /* <!-- =========     =========
+      ========= end header-section =========
+      =========     ========= --> */
+
+  /* ==============================================================
+  ============================= companions ============================
+  ================================================================= */
+
+  .companions div img {
+    width: 100px;
+  }
+
+  .back-companions {
+    background: none;
+  }
+
+  .companions div button {
+    padding: 10px 100px;
+    margin-top: 300px;
+  }
+
+  .companions div svg {
+    display: none;
+  }
+
+  /* ==============================================================
+  ============================= end companions ============================
+  ================================================================= */
+
+  /* ==============================================================
+============================= support ============================
+================================================================= */
+
+  .support .ltr {
+    direction: rtl;
+  }
+
+  .support div .backk {
+    background: url(about\ us\ -\ mission-shap.svg) center/cover no-repeat;
+    border-radius: 100px;
+    width: 350px;
+    height: 282px;
+  }
+
+  .support div img {
+    width: 100%;
+    height: 400px;
+    margin-top: -70px;
+    margin-right: -20px;
+  }
+
+  /* ==============================================================
+============================= end support ============================
+================================================================= */
+
+  /* question section */
+
+  .question-section {
+    width: 100%;
+    height: unset;
+    background: linear-gradient(211deg, #4d5ef8 7.25%, #91cbf2 100%);
+    margin-top: 200px;
+  }
+  .question-section h2 {
+    font-size: 22px;
+  }
+
+  .question-section p {
+    width: unset;
+  }
+  .question-section-left-items {
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: unset;
+  }
+  /* end of question section */
+
+
+
+
+
+    /* ==============================================================
+============================= footer ============================
+================================================================= */
+  .footer {
+    margin-top: 150px;
+    padding-top: 70px;
+  }
+  .footer-contact-us {
+    margin-right: 40px;
+  }
+  .social-media-logo {
+    padding-bottom: 70px;
+  }
+  /* ==============================================================
+============================= end footer ============================
+================================================================= */
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .amir-reza {
+    position: absolute;
+    top: 1000px;
+    left: 80px;
+  }
+
+  .support div .backk {
+  
+  
+  height: 282px;
+}
+
+}
+
+
+
+@media screen and (max-width: 350px) {
+
+
+  .header-section div p {
+    width: 95vw;
+  }
+
+  .header-section div img {
+    width: 250px;
+    display: flex;
+    margin: auto;
+  }
+}

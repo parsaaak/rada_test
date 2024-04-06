@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Dana;
+  src: url(DanaVF.ttf);
+  src: url(DanaVF.woff);
+  src: url(DanaVF.woff2);
+}
+
+body {
+  background: rgba(49, 50, 82, 1);
+  font-family: Dana;
+}
+
+header {
+  background: url(contact\ us-heading-shap.svg) right/contain no-repeat;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  color: #fff;
+}
+
+/* ================ nav ==================== */
+
+.navbar-collapse {
+  margin-bottom: 25px;
+}
+.navbar-toggler {
+  background-color: #fff;
+}
+.btn {
+  width: 150px;
+  height: 45px;
+  background: linear-gradient(263deg, #018def 2.98%, #3840f7 161.51%);
+  box-shadow: 4px 0px 30px 0px rgba(0, 80, 136, 0.96);
+  margin-left: 100px;
+    color: #fff;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      border: none;
+}
+
+.navbar a,
+.navbar button {
+  color: #fff;
+}
+.navbar ul {
+  gap: 15px;
+  margin-left: 20%;
+}
+.navbar-toggler {
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  margin-right: 0px;
+}
+
+/* ================ end nav ==================== */
+
+/* ================ form ==================== */
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.form-group .header-form {
+  width: 40%;
+}
+
+.form-group .header-form div {
+  border-radius: 10px;
+  background: #313252;
+  box-shadow: 4px 0px 30px 0px #1f1f35;
+  width: 100%;
+  padding: 60px 30px;
+}
+.form-group .header-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-group .header-form h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.form-group .header-form p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2.5;
+}
+
+.form-group .header-form button {
+  margin-inline: auto;
+}
+
+.form-group .header-form input {
+  margin: 1rem;
+  border-radius: 0.5rem;
+  padding-left: 15%;
+  width: 85%;
+  border-radius: 5px;
+  background: #272741;
+  box-shadow: 4px 0px 10px 0px #1f1f35;
+  border: none;
+  padding: 10px;
+  color: #fff;
+}
+
+textarea:focus,
+input:focus {
+  /* outline: none; */
+  outline-color: #fff;
+}
+::placeholder {
+  color: #fff;
+}
+::-ms-input-placeholder {
+  color: #fff;
+}
+/* ================ end form ==================== */
+
+/* ================ section ==================== */
+
+section {
+  margin-top: 70px;
+}
+
+section .col-lg-7 {
+  margin-top: 70px;
+}
+
+section .col-1 img {
+  margin-top: 40px;
+}
+section .col-10 p {
+  margin-top: 50px;
+}
+section div .borderr {
+  border-bottom: #fff solid 1px;
+  padding-bottom: 50px;
+}
+
+/* ================ end section ==================== */
+
+/* ==============================================================
+============================= footer ============================
+================================================================= */
+
+.footer {
+  background: #292944;
+  margin-top: 67px;
+}
+.footer div {
+  margin-top: 17px;
+}
+.footer h4 {
+  color: #707bfa;
+  text-align: right;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer li {
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-block: 15px;
+  list-style: none;
+  color: #fff;
+}
+.footer h5 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.footer p {
+  color: #5c63c5;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-logos a {
+  margin-inline: 5px;
+}
+
+/* ==============================================================
+============================= end footer ============================
+================================================================= */

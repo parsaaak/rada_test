@@ -1,0 +1,60 @@
+@media screen and (max-width: 1200px) {
+  header {
+    background-position: top;
+  }
+
+  .form-group .header-form {
+    width: 50%;
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    background-position: top;
+    height: 80vh;
+  }
+
+  .form-group .header-form {
+    width: 60%;
+  }
+  section {
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header {
+    background-position: top;
+    height: 100vh;
+    margin-bottom: 100px;
+  }
+
+  section {
+    margin-top: 300px;
+  }
+
+  section div .col-lg-5 img {
+    width: 100%;
+  }
+
+  .form-group .header-form {
+    width: 90%;
+  }
+
+  /* ==============================================================
+============================= footer ============================
+================================================================= */
+  .footer {
+    margin-top: 150px;
+    padding-top: 70px;
+  }
+  .footer-contact-us {
+    margin-right: 40px;
+  }
+  .social-media-logo {
+    padding-bottom: 70px;
+  }
+  /* ==============================================================
+============================= end footer ============================
+================================================================= */
+}
